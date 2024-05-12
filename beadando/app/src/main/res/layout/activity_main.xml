@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="@android:color/white">
+
+    <!-- Logo -->
+    <ImageView
+        android:id="@+id/logoImageView"
+        android:layout_width="133dp"
+        android:layout_height="154dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="32dp"
+        android:src="@drawable/ic_logo"
+        android:tint="@color/colorPrimary" />
+
+    <!-- Login Button -->
+    <Button
+        android:id="@+id/loginButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorAccent"
+        android:layout_below="@id/logoImageView"
+        android:drawableStart="@drawable/ic_login"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"/>
+
+    <!-- Register Button -->
+    <Button
+        android:id="@+id/registerButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textColor="@android:color/white"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_below="@id/loginButton"
+        android:drawableStart="@drawable/ic_register"
+        android:drawablePadding="8dp"
+        android:layout_marginTop="16dp"/>
+
+</RelativeLayout>

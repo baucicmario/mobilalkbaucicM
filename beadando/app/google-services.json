@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "624609178359",
+    "project_id": "mobilalk-bd1b4",
+    "storage_bucket": "mobilalk-bd1b4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:624609178359:android:0931416e980d48dd1259f2",
+        "android_client_info": {
+          "package_name": "com.example.mobilalkbmario"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC93hBsK6Zg87RGFbeXeotEg0zoI6wH-ZY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

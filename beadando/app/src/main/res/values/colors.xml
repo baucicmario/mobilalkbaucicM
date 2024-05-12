@@ -1,0 +1,21 @@
+<resources>
+    <!-- Define primary color -->
+    <color name="colorPrimary">#3F51B5</color>
+
+    <!-- Define accent color -->
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Define primary dark color -->
+    <color name="colorPrimaryDark">#303F9F</color>
+
+    <!-- Define white color -->
+    <color name="colorWhite">#FFFFFF</color>
+
+    <!-- Define top bar color -->
+    <color name="top_bar_color">#FF4081</color>
+
+    <!-- Define delete button color -->
+    <color name="colorDeleteButton">#FF0000</color>
+    <!-- Define delete button color -->
+    <color name="button_color">#FF0000</color>
+</resources>

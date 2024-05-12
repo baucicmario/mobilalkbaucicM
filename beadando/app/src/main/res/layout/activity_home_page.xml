@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Main content layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <!-- Top Bar with User Icon -->
+        <RelativeLayout
+            android:id="@+id/topBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/top_bar_color">
+
+            <!-- User Icon -->
+            <ImageButton
+                android:id="@+id/userIcon"
+                android:layout_width="59dp"
+                android:layout_height="56dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="User Profile"
+                android:padding="8dp"
+                android:src="@drawable/ic_user" />
+        </RelativeLayout>
+
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="match_parent"
+            android:layout_height="185dp"
+            android:layout_below="@id/topBarLayout"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="490dp"
+            android:columnCount="2"
+            android:padding="8dp"
+            android:paddingTop="16dp"
+            android:paddingBottom="16dp"
+            android:rowCount="2">
+
+            <Button
+                android:id="@+id/square1"
+                android:layout_width="1dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="@color/button_color"
+                android:text="@string/square_1"
+                android:textColor="@android:color/white" />
+
+
+            <Button
+                android:id="@+id/square3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="4dp"
+                android:background="@color/button_color"
+                android:text="@string/square_3"
+                android:textColor="@android:color/white" />
+
+        </GridLayout>
+
+
+    </RelativeLayout>
+
+    <!-- Sidebar layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/sidebarLayout"
+        android:layout_width="200dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="end"
+        android:background="@color/colorWhite"
+        android:padding="8dp"
+        android:visibility="invisible">
+
+        <!-- Change Password Button -->
+        <Button
+            android:id="@+id/change_password_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Change Password"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+        <!-- Logout Button -->
+        <Button
+            android:id="@+id/logout_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Logout"
+            android:layout_below="@id/change_password_button"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+</androidx.drawerlayout.widget.DrawerLayout>

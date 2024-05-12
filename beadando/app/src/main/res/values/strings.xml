@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">bMarioApp</string>
+    <string name="side_menu">Side Menu</string>
+    <string name="password">Password</string>
+    <string name="create_issue">Create Issue</string>
+    <string name="delete_issue">Delete Issue</string>
+    <string name="edit_update_issue">Edit/Update Issue</string>
+    <string name="show_issues">Show Issues</string>
+    <string name="user_profile">User Profile</string>
+    <string name="square_1">Create issues</string>
+    <string name="square_2">Delete issues</string>
+    <string name="square_3">Read issues</string>
+    <string name="square_4">Update issues</string>
+    <string name="user_icon_description">User profile</string>
+</resources>
